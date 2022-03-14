@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-github-graphql/static/css/main.f51152bd.css",
+    "main.js": "/react-github-graphql/static/js/main.b97006ba.js",
+    "index.html": "/react-github-graphql/index.html",
+    "main.f51152bd.css.map": "/react-github-graphql/static/css/main.f51152bd.css.map",
+    "main.b97006ba.js.map": "/react-github-graphql/static/js/main.b97006ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f51152bd.css",
+    "static/js/main.b97006ba.js"
+  ]
+}
