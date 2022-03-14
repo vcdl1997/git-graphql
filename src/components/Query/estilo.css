@@ -65,6 +65,7 @@
     border: none;
     outline:none;
     text-align: center;
+    font-weight: bold;
 }
 
 .filter div:nth-child(3) select option{
