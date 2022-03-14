@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/git-graphql/static/css/main.f51152bd.css",
-    "main.js": "/git-graphql/static/js/main.c789d8dc.js",
+    "main.js": "/git-graphql/static/js/main.4f6aec1a.js",
     "index.html": "/git-graphql/index.html",
     "main.f51152bd.css.map": "/git-graphql/static/css/main.f51152bd.css.map",
-    "main.c789d8dc.js.map": "/git-graphql/static/js/main.c789d8dc.js.map"
+    "main.4f6aec1a.js.map": "/git-graphql/static/js/main.4f6aec1a.js.map"
   },
   "entrypoints": [
     "static/css/main.f51152bd.css",
-    "static/js/main.c789d8dc.js"
+    "static/js/main.4f6aec1a.js"
   ]
 }
