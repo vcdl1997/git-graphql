@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-github-graphql/static/css/main.f51152bd.css",
-    "main.js": "/react-github-graphql/static/js/main.b97006ba.js",
-    "index.html": "/react-github-graphql/index.html",
-    "main.f51152bd.css.map": "/react-github-graphql/static/css/main.f51152bd.css.map",
-    "main.b97006ba.js.map": "/react-github-graphql/static/js/main.b97006ba.js.map"
+    "main.css": "/git-graphql/static/css/main.f51152bd.css",
+    "main.js": "/git-graphql/static/js/main.b97006ba.js",
+    "index.html": "/git-graphql/index.html",
+    "main.f51152bd.css.map": "/git-graphql/static/css/main.f51152bd.css.map",
+    "main.b97006ba.js.map": "/git-graphql/static/js/main.b97006ba.js.map"
   },
   "entrypoints": [
     "static/css/main.f51152bd.css",
