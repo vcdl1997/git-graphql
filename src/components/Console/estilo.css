@@ -1,0 +1,43 @@
+.console{
+    width: 100%;
+    height: 100vh;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.console button{
+    background-color: greenyellow;
+    height: 6vh;
+    width: 6vh;
+    color: black;
+    border: none;
+}
+
+.console button:hover{
+    filter: brightness(85%);
+    cursor: pointer;
+}
+
+.console{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.console code{
+    width: 94%;
+    height: 50vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: black;
+    color: #2ecc71;
+    white-space: pre-wrap;
+    font-size: 12px;
+    word-break: break-all;
+    border-radius: 10px;
+    overflow-y: auto;
+}

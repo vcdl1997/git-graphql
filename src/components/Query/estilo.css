@@ -1,0 +1,138 @@
+.filter{
+    width: 100% !important;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.query{
+    width: 100% !important;
+    height: 94vh;
+    background: #283048;
+    background: linear-gradient(to right, #859398, #283048);
+}
+
+.filter div:nth-child(1), .filter div:nth-child(2){
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.filter div:nth-child(4){
+    width: 45%;
+    height: 100%;
+}
+
+.filter div:nth-child(3){
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+}
+
+#filter, #ordination{
+    display: none;
+}
+
+.filter div:nth-child(1) label, .filter div:nth-child(2) label{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.filter div:nth-child(4) input[type="search"]{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.filter div:nth-child(3) select{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border: none;
+    outline:none;
+    text-align: center;
+}
+
+.filter div:nth-child(3) select option{
+    cursor: pointer;
+    color: #606c88;
+}
+
+.filter div:nth-child(1) label:hover{
+    filter: brightness(85%);
+}
+
+.filters-options, .sorting-options{
+    color: black;
+    position: absolute;
+    top: 3.5vh;
+    background: white;
+    min-width: 100px;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.filters-options li, 
+.sorting-options li{
+    padding: 10px;
+    height: 100%;
+}
+
+.filters-options li:hover, 
+.sorting-options li:hover
+{
+    background: #9c9d9e;
+    cursor: pointer;
+    color: #fff !important;
+}
+
+.query{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.query code{
+    width: 94%;
+    min-height: 50vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: black;
+    color: #2ecc71;
+    white-space: pre-wrap;
+    font-size: 12px;
+    word-break: break-all;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .filters-options, .sorting-options{
+        top: 3vh;
+    }
+}
+
+@media only screen and (min-width: 1281px ) {
+    .filters-options, .sorting-options{
+        top: 4.5vh;
+    }
+}
+
+
